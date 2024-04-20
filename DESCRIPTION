@@ -1,0 +1,21 @@
+Package: awesomeapiMOEDAS
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Baruque", "Rodrigues", , "quemuel.baruque@ufpe.br", role = c("aut", "cre"),
+           comment = c(ORCID = "orcid.org/0000-0003-3064-2349"))
+Description: acess awesomeapi for cotation data.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    jsonlite,
+    lubridate,
+    magrittr,
+    tidyr
+Depends: 
+    R (>= 2.10)
+LazyData: true
